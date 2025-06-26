@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'dbevaluacion',
         'USER': 'admin',
         'PASSWORD': 'admindb123',
-        'HOST': 'endpoint_rds.amazonaws.com',
+        'HOST': 'evaluacion-db.cbqku6w2kham.us-east-1.rds.amazonaws.com',
         'PORT': '3306',
     }
 }
