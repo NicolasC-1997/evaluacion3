@@ -76,10 +76,15 @@ WSGI_APPLICATION = 'evaluacion_tres.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'dbevaluacion',
+        'USER': 'admin',
+        'PASSWORD': 'admindb123',
+        'HOST': 'endpoint_rds.amazonaws.com',
+        'PORT': '3306',
     }
 }
+
 
 
 # Password validation
